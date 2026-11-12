@@ -22,6 +22,8 @@ Tested on FUXA 1.3.5.
 
 > **Open Project replaces the project you have open.** If you have work of your own, use **Save Project as…** first to keep a copy.
 
+> **The screen is blank at first. Wait about a minute.** FUXA only reads the Web API once every polling interval (60 seconds in the weather examples), so right after you import a project or start FUXA, the values are empty until the first reading arrives. Nothing is broken; give it a minute.
+
 The FUXA server makes the API calls, so the machine running FUXA needs internet access.
 
 ---
@@ -38,6 +40,8 @@ The starting point: one Web API connection, three numbers on screen.
 
 **Make it yours:** open **Connections**, edit `My Weather`, and change `latitude` and `longitude` in the address to your own city.
 
+**First minute:** the three values show nothing until the first 60-second poll completes.
+
 ## 2. Weather with history and an alarm — `fuxa-webapi-weather-alarm.project.json`
 
 The same weather screen, now doing two things a plain web page does not: it remembers the past and it warns you.
@@ -50,6 +54,7 @@ Everything from example 1, plus:
 
 Good to know:
 
+- The numbers are blank for the first minute, as in example 1.
 - The chart starts empty right after import. It fills in as readings arrive, one per minute.
 - Taipei is usually above 59 %, so you should see the alarm soon after import. To change the limit, open **Alarms** in the editor and edit `Muggy air`.
 
@@ -61,6 +66,8 @@ A SCADA tool showing something that is clearly not a factory: animals in Taiwan'
 - **What is different from the weather API:** the response is a *list* of records, not a single object. The address ends in `$top=1&$skip=N`, which asks for one record, the Nth. Tag addresses therefore start with `[0]:`, for example `[0]:animal_kind`.
 
 The project has two views. The start view is the scripted one.
+
+Both views also start out empty. The no-script view fills in within about 10 seconds; the daily card can take up to a minute while the script finds an animal with a photo.
 
 ### View "WebAPI 極簡綁定" — no scripts
 
