@@ -32,15 +32,15 @@ API 是由 FUXA 伺服器去呼叫的，所以跑 FUXA 的那台電腦要能上�
 
 入門款：一條 Web API 連線，畫面上三個數字。
 
-- **資料來源：**[Open-Meteo](https://open-meteo.com/) 即時天氣，免費、不用金鑰。
-- **連線 `My Weather`：**類型 WebAPI、GET、JSON，每 60 秒讀一次。網址預設是台北（`latitude=25.03&longitude=121.56`）。
-- **標籤：**`temperature_2m`、`relative_humidity_2m`、`wind_speed_10m`。每個都有兩份：數值（`current:…`，數字）和單位（`current_units:…`，文字）。
-- **畫面 `MainView`：**三個數值顯示，數字後面接著單位。
-- **`My Weather Connection Status`：**放在 FUXA Server 底下的標籤，可以看 API 有沒有連上。
+- **資料來源**：[Open-Meteo](https://open-meteo.com/) 即時天氣，免費、不用金鑰。
+- **連線 `My Weather`**：類型 WebAPI、GET、JSON，每 60 秒讀一次。網址預設是台北（`latitude=25.03&longitude=121.56`）。
+- **標籤**：`temperature_2m`、`relative_humidity_2m`、`wind_speed_10m`。每個都有兩份：數值（`current:…`，數字）和單位（`current_units:…`，文字）。
+- **畫面 `MainView`**：三個數值顯示，數字後面接著單位。
+- **`My Weather Connection Status`**：放在 FUXA Server 底下的標籤，可以看 API 有沒有連上。
 
-**改成自己的城市：**進 **Connections** 編輯 `My Weather`，把網址裡的 `latitude` 和 `longitude` 換成你那邊的經緯度。
+**改成自己的城市**：進 **Connections** 編輯 `My Weather`，把網址裡的 `latitude` 和 `longitude` 換成你那邊的經緯度。
 
-**前 1 分鐘：**三個數值要等第一次 60 秒輪詢讀完才會出現，在那之前是空的。
+**前 1 分鐘**：三個數值要等第一次 60 秒輪詢讀完才會出現，在那之前是空的。
 
 ## 2. 天氣加上記錄與警報 — `fuxa-webapi-weather-alarm.project.json`
 
@@ -48,9 +48,9 @@ API 是由 FUXA 伺服器去呼叫的，所以跑 FUXA 的那台電腦要能上�
 
 除了範例 1 的內容，還有：
 
-- **資料記錄：**濕度標籤開了 DAQ，FUXA 每 60 秒存一筆。
-- **趨勢圖 `Humidity history`：**放在數字旁邊，範圍是最近 24 小時。打開頁面時會把存過的資料載回來，重新整理或重開機後線還在。
-- **警報 `Muggy air`：**濕度的 High 警報。讀值落在 59–100 % 時會發出「Muggy air outside」，畫面上方的鈴鐺會出現數字。濕度降回 59 % 以下警報就解除，但會留在清單裡等你按確認。
+- **資料記錄**：濕度標籤開了 DAQ，FUXA 每 60 秒存一筆。
+- **趨勢圖 `Humidity history`**：放在數字旁邊，範圍是最近 24 小時。打開頁面時會把存過的資料載回來，重新整理或重開機後線還在。
+- **警報 `Muggy air`**：濕度的 High 警報。讀值落在 59–100 % 時會發出「Muggy air outside」，畫面上方的鈴鐺會出現數字。濕度降回 59 % 以下警報就解除，但會留在清單裡等你按確認。
 
 補充：
 
@@ -62,8 +62,8 @@ API 是由 FUXA 伺服器去呼叫的，所以跑 FUXA 的那台電腦要能上�
 
 用工廠監控軟體做一件跟工廠無關的事：介紹公立收容所裡正在等家的動物。畫面文字是繁體中文。
 
-- **資料來源：**農業部開放資料「動物認領養」（`data.moa.gov.tw`），不用金鑰。
-- **跟天氣 API 不一樣的地方：**回來的是「一串資料」，不是單一物件。網址尾端的 `$top=1&$skip=N` 意思是只拿一筆、拿第 N 筆，所以標籤位址前面都有 `[0]:`，例如 `[0]:animal_kind`。
+- **資料來源**：農業部開放資料「動物認領養」（`data.moa.gov.tw`），不用金鑰。
+- **跟天氣 API 不一樣的地方**：回來的是「一串資料」，不是單一物件。網址尾端的 `$top=1&$skip=N` 意思是只拿一筆、拿第 N 筆，所以標籤位址前面都有 `[0]:`，例如 `[0]:animal_kind`。
 
 專案裡有兩個畫面，開機預設是有腳本的那一頁。
 
@@ -73,10 +73,10 @@ API 是由 FUXA 伺服器去呼叫的，所以跑 FUXA 的那台電腦要能上�
 
 清單資料最簡單的做法：建連線、把標籤指到欄位、再把標籤綁到畫面。
 
-- **連線 `ADOPT_BASIC`：**WebAPI、GET、JSON，每 10 秒讀一次，固定讀 `$skip=0`。
-- **標籤 `PB_*`：**八個欄位，分別是種類、品種、性別、體型、年紀、毛色、收容所名稱、照片網址。
-- **畫面：**每個欄位旁邊都標了 JSON 欄位名，一眼看得出哪個欄位對到哪個元件。顯示的是 API 原始值，像 `M`、`SMALL`、`CHILD`。
-- **照片：**用一個 SVG widget，它的 `_ps_url` 變數綁到 `album_file` 標籤，widget 會把這個網址設成圖片來源。
+- **連線 `ADOPT_BASIC`**：WebAPI、GET、JSON，每 10 秒讀一次，固定讀 `$skip=0`。
+- **標籤 `PB_*`**：八個欄位，分別是種類、品種、性別、體型、年紀、毛色、收容所名稱、照片網址。
+- **畫面**：每個欄位旁邊都標了 JSON 欄位名，一眼看得出哪個欄位對到哪個元件。顯示的是 API 原始值，像 `M`、`SMALL`、`CHILD`。
+- **照片**：用一個 SVG widget，它的 `_ps_url` 變數綁到 `album_file` 標籤，widget 會把這個網址設成圖片來源。
 
 想看別隻，進 **Connections** 編輯 `ADOPT_BASIC`，改 `$skip=` 後面的數字。有些資料沒附照片，那時照片區會是空的。
 
@@ -106,7 +106,7 @@ API 是由 FUXA 伺服器去呼叫的，所以跑 FUXA 的那台電腦要能上�
 - **換一隻** 會把 `PAD_CMD` 標籤設成 1，`petDaily` 看到後就再抽一隻，尋找時按鈕會顯示「正在找…」。
 - 連線 `ADOPT_PET` 有 17 個標籤（`PA_*`）放原始欄位。輪詢設成每小時一次，因為腳本需要時會自己觸發讀取。
 
-**資料授權：**認養資料由農業部依[政府資料開放授權條款](https://data.gov.tw/license)釋出。內容可能不是最新的，實際狀況請以收容所公告為準。
+**資料授權**：認養資料由農業部依[政府資料開放授權條款](https://data.gov.tw/license)釋出。內容可能不是最新的，實際狀況請以收容所公告為準。
 
 ---
 
