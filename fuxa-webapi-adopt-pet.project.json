@@ -1,0 +1,1446 @@
+{
+  "devices": {
+    "0": {
+      "id": "0",
+      "name": "FUXA Server",
+      "type": "FuxaServer",
+      "enabled": true,
+      "property": {},
+      "polling": 1000,
+      "tags": {
+        "t_pad_addr": {
+          "id": "t_pad_addr",
+          "name": "PAD_ADDR",
+          "label": "收容所地址",
+          "type": "string",
+          "init": "",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pad_age": {
+          "id": "t_pad_age",
+          "name": "PAD_AGE",
+          "label": "年齡",
+          "type": "string",
+          "init": "",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pad_bact": {
+          "id": "t_pad_bact",
+          "name": "PAD_BACT",
+          "label": "狂犬病疫苗",
+          "type": "string",
+          "init": "",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pad_body": {
+          "id": "t_pad_body",
+          "name": "PAD_BODY",
+          "label": "體型",
+          "type": "string",
+          "init": "",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pad_btn": {
+          "id": "t_pad_btn",
+          "name": "PAD_BTN",
+          "label": "換一隻按鈕文字",
+          "type": "string",
+          "init": "↻  換一隻",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pad_cmd": {
+          "id": "t_pad_cmd",
+          "name": "PAD_CMD",
+          "label": "換一隻指令",
+          "type": "number",
+          "init": "0",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pad_colour": {
+          "id": "t_pad_colour",
+          "name": "PAD_COLOUR",
+          "label": "毛色",
+          "type": "string",
+          "init": "",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pad_count": {
+          "id": "t_pad_count",
+          "name": "PAD_COUNT",
+          "label": "資料更新與已介紹數",
+          "type": "string",
+          "init": "",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pad_day": {
+          "id": "t_pad_day",
+          "name": "PAD_DAY",
+          "label": "日期",
+          "type": "string",
+          "init": "",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pad_json": {
+          "id": "t_pad_json",
+          "name": "PAD_JSON",
+          "label": "推播內容 JSON",
+          "type": "string",
+          "init": "",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pad_kind": {
+          "id": "t_pad_kind",
+          "name": "PAD_KIND",
+          "label": "種類",
+          "type": "string",
+          "init": "",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pad_line": {
+          "id": "t_pad_line",
+          "name": "PAD_LINE",
+          "label": "等家文案",
+          "type": "string",
+          "init": "",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pad_num": {
+          "id": "t_pad_num",
+          "name": "PAD_NUM",
+          "label": "等家天數",
+          "type": "string",
+          "init": "",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pad_post": {
+          "id": "t_pad_post",
+          "name": "PAD_POST",
+          "label": "等家文字(後)",
+          "type": "string",
+          "init": "",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pad_pre": {
+          "id": "t_pad_pre",
+          "name": "PAD_PRE",
+          "label": "等家文字(前)",
+          "type": "string",
+          "init": "",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pad_sex": {
+          "id": "t_pad_sex",
+          "name": "PAD_SEX",
+          "label": "性別",
+          "type": "string",
+          "init": "",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pad_shelter": {
+          "id": "t_pad_shelter",
+          "name": "PAD_SHELTER",
+          "label": "收容所",
+          "type": "string",
+          "init": "",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pad_ster": {
+          "id": "t_pad_ster",
+          "name": "PAD_STER",
+          "label": "絕育",
+          "type": "string",
+          "init": "",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pad_sub": {
+          "id": "t_pad_sub",
+          "name": "PAD_SUB",
+          "label": "收容編號",
+          "type": "string",
+          "init": "",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pad_tel": {
+          "id": "t_pad_tel",
+          "name": "PAD_TEL",
+          "label": "收容所電話",
+          "type": "string",
+          "init": "",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pad_variety": {
+          "id": "t_pad_variety",
+          "name": "PAD_VARIETY",
+          "label": "品種",
+          "type": "string",
+          "init": "",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        }
+      }
+    },
+    "d_adopt_pet": {
+      "id": "d_adopt_pet",
+      "name": "ADOPT_PET",
+      "enabled": true,
+      "type": "WebAPI",
+      "polling": 3600000,
+      "tags": {
+        "t_pa_id": {
+          "id": "t_pa_id",
+          "name": "PA_ID",
+          "label": "流水編號",
+          "type": "number",
+          "address": "[0]:animal_id",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pa_subid": {
+          "id": "t_pa_subid",
+          "name": "PA_SUBID",
+          "label": "收容編號",
+          "type": "string",
+          "address": "[0]:animal_subid",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pa_kind": {
+          "id": "t_pa_kind",
+          "name": "PA_KIND",
+          "label": "種類",
+          "type": "string",
+          "address": "[0]:animal_kind",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pa_variety": {
+          "id": "t_pa_variety",
+          "name": "PA_VARIETY",
+          "label": "品種",
+          "type": "string",
+          "address": "[0]:animal_Variety",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pa_sex": {
+          "id": "t_pa_sex",
+          "name": "PA_SEX",
+          "label": "性別",
+          "type": "string",
+          "address": "[0]:animal_sex",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pa_body": {
+          "id": "t_pa_body",
+          "name": "PA_BODY",
+          "label": "體型",
+          "type": "string",
+          "address": "[0]:animal_bodytype",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pa_age": {
+          "id": "t_pa_age",
+          "name": "PA_AGE",
+          "label": "年紀",
+          "type": "string",
+          "address": "[0]:animal_age",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pa_colour": {
+          "id": "t_pa_colour",
+          "name": "PA_COLOUR",
+          "label": "毛色",
+          "type": "string",
+          "address": "[0]:animal_colour",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pa_ster": {
+          "id": "t_pa_ster",
+          "name": "PA_STER",
+          "label": "絕育",
+          "type": "string",
+          "address": "[0]:animal_sterilization",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pa_bact": {
+          "id": "t_pa_bact",
+          "name": "PA_BACT",
+          "label": "狂犬病疫苗",
+          "type": "string",
+          "address": "[0]:animal_bacterin",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pa_open": {
+          "id": "t_pa_open",
+          "name": "PA_OPEN",
+          "label": "開放認養日",
+          "type": "string",
+          "address": "[0]:animal_opendate",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pa_create": {
+          "id": "t_pa_create",
+          "name": "PA_CREATE",
+          "label": "建檔時間",
+          "type": "string",
+          "address": "[0]:animal_createtime",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pa_update": {
+          "id": "t_pa_update",
+          "name": "PA_UPDATE",
+          "label": "資料異動",
+          "type": "string",
+          "address": "[0]:animal_update",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pa_shelter": {
+          "id": "t_pa_shelter",
+          "name": "PA_SHELTER",
+          "label": "收容所",
+          "type": "string",
+          "address": "[0]:shelter_name",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pa_tel": {
+          "id": "t_pa_tel",
+          "name": "PA_TEL",
+          "label": "電話",
+          "type": "string",
+          "address": "[0]:shelter_tel",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pa_addr": {
+          "id": "t_pa_addr",
+          "name": "PA_ADDR",
+          "label": "地址",
+          "type": "string",
+          "address": "[0]:shelter_address",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pa_photo": {
+          "id": "t_pa_photo",
+          "name": "PA_PHOTO",
+          "label": "照片",
+          "type": "string",
+          "address": "[0]:album_file",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        }
+      },
+      "property": {
+        "address": "https://data.moa.gov.tw/Service/OpenData/TransService.aspx?UnitId=QcbUEzN6E6DL&animal_status=OPEN&$top=1&$skip=0",
+        "method": "GET",
+        "format": "JSON"
+      }
+    },
+    "d_adopt_basic": {
+      "id": "d_adopt_basic",
+      "name": "ADOPT_BASIC",
+      "enabled": true,
+      "type": "WebAPI",
+      "polling": 10000,
+      "tags": {
+        "t_pb_kind": {
+          "id": "t_pb_kind",
+          "name": "PB_KIND",
+          "label": "animal_kind",
+          "type": "string",
+          "address": "[0]:animal_kind",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pb_variety": {
+          "id": "t_pb_variety",
+          "name": "PB_VARIETY",
+          "label": "animal_Variety",
+          "type": "string",
+          "address": "[0]:animal_Variety",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pb_sex": {
+          "id": "t_pb_sex",
+          "name": "PB_SEX",
+          "label": "animal_sex",
+          "type": "string",
+          "address": "[0]:animal_sex",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pb_body": {
+          "id": "t_pb_body",
+          "name": "PB_BODY",
+          "label": "animal_bodytype",
+          "type": "string",
+          "address": "[0]:animal_bodytype",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pb_age": {
+          "id": "t_pb_age",
+          "name": "PB_AGE",
+          "label": "animal_age",
+          "type": "string",
+          "address": "[0]:animal_age",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pb_colour": {
+          "id": "t_pb_colour",
+          "name": "PB_COLOUR",
+          "label": "animal_colour",
+          "type": "string",
+          "address": "[0]:animal_colour",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pb_shelter": {
+          "id": "t_pb_shelter",
+          "name": "PB_SHELTER",
+          "label": "shelter_name",
+          "type": "string",
+          "address": "[0]:shelter_name",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        },
+        "t_pb_photo": {
+          "id": "t_pb_photo",
+          "name": "PB_PHOTO",
+          "label": "album_file",
+          "type": "string",
+          "address": "[0]:album_file",
+          "daq": {
+            "enabled": false,
+            "changed": false,
+            "interval": 60,
+            "restored": false
+          }
+        }
+      },
+      "property": {
+        "address": "https://data.moa.gov.tw/Service/OpenData/TransService.aspx?UnitId=QcbUEzN6E6DL&animal_status=OPEN&$top=1&$skip=0",
+        "method": "GET",
+        "format": "JSON",
+        "port": null,
+        "slot": null,
+        "rack": null,
+        "baudrate": 9600,
+        "databits": 8,
+        "stopbits": 1,
+        "parity": "None",
+        "forceFC16": false,
+        "timeout": 2000
+      }
+    }
+  },
+  "hmi": {
+    "views": [
+      {
+        "id": "v_adopt_basic",
+        "name": "WebAPI 極簡綁定",
+        "type": "svg",
+        "profile": {
+          "width": 1280,
+          "height": 800,
+          "bkcolor": "#f8fafc",
+          "margin": 0
+        },
+        "variables": {},
+        "property": {
+          "events": []
+        },
+        "svgcontent": "<svg width=\"1280\" height=\"800\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns:html=\"http://www.w3.org/1999/xhtml\">\n <g>\n  <title>Layer 1</title>\n  <rect fill=\"#f8fafc\" height=\"800\" width=\"1280\" y=\"0\" x=\"0\" id=\"svg_pb0001\"/>\n  <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"start\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" font-weight=\"bold\" font-size=\"40\" fill=\"#0f172a\" y=\"78\" x=\"64\" id=\"svg_pb0002\">不用腳本：JSON 欄位直接上畫面</text>\n  <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"start\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" font-weight=\"normal\" font-size=\"22\" fill=\"#475569\" y=\"118\" x=\"64\" id=\"svg_pb0003\">WebAPI 連線 → 設定 tag 路徑 → 綁到元件</text>\n  <rect fill=\"#0f172a\" rx=\"8\" height=\"40\" width=\"1152\" y=\"140\" x=\"64\" id=\"svg_pb0004\"/>\n  <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"start\" font-family=\"Consolas, &#x27;Segoe UI', monospace\" font-weight=\"normal\" font-size=\"17\" fill=\"#7fe7ff\" y=\"166\" x=\"80\" id=\"svg_pb0005\">GET data.moa.gov.tw/Service/OpenData/TransService.aspx?UnitId=QcbUEzN6E6DL&amp;animal_status=OPEN&amp;$top=1&amp;$skip=0</text>\n  <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"start\" font-family=\"Consolas, &#x27;Segoe UI', monospace\" font-weight=\"bold\" font-size=\"24\" fill=\"#2563eb\" y=\"234\" x=\"72\" id=\"svg_pb0006\">animal_kind</text>\n  <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"start\" font-family=\"Consolas, &#x27;Segoe UI', monospace\" font-weight=\"normal\" font-size=\"24\" fill=\"#94a3b8\" y=\"234\" x=\"360\" id=\"svg_pb0007\">→</text>\n  <g data-name=\"t_pb_kind\" text-anchor=\"start\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" font-size=\"30\" stroke-width=\"0\" fill=\"none\" id=\"VAL_pb_0\" type=\"svg-ext-value\">\n   <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"start\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" font-weight=\"bold\" font-size=\"30\" fill=\"#0f172a\" y=\"234\" x=\"410\" id=\"svg_pb0008\"/>\n  </g>\n  <line stroke=\"#e2e8f0\" y2=\"252\" x2=\"840\" y1=\"252\" x1=\"64\" id=\"svg_pb0009\"/>\n  <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"start\" font-family=\"Consolas, &#x27;Segoe UI', monospace\" font-weight=\"bold\" font-size=\"24\" fill=\"#2563eb\" y=\"296\" x=\"72\" id=\"svg_pb0010\">animal_Variety</text>\n  <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"start\" font-family=\"Consolas, &#x27;Segoe UI', monospace\" font-weight=\"normal\" font-size=\"24\" fill=\"#94a3b8\" y=\"296\" x=\"360\" id=\"svg_pb0011\">→</text>\n  <g data-name=\"t_pb_variety\" text-anchor=\"start\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" font-size=\"30\" stroke-width=\"0\" fill=\"none\" id=\"VAL_pb_1\" type=\"svg-ext-value\">\n   <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"start\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" font-weight=\"bold\" font-size=\"30\" fill=\"#0f172a\" y=\"296\" x=\"410\" id=\"svg_pb0012\"/>\n  </g>\n  <line stroke=\"#e2e8f0\" y2=\"314\" x2=\"840\" y1=\"314\" x1=\"64\" id=\"svg_pb0013\"/>\n  <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"start\" font-family=\"Consolas, &#x27;Segoe UI', monospace\" font-weight=\"bold\" font-size=\"24\" fill=\"#2563eb\" y=\"358\" x=\"72\" id=\"svg_pb0014\">animal_sex</text>\n  <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"start\" font-family=\"Consolas, &#x27;Segoe UI', monospace\" font-weight=\"normal\" font-size=\"24\" fill=\"#94a3b8\" y=\"358\" x=\"360\" id=\"svg_pb0015\">→</text>\n  <g data-name=\"t_pb_sex\" text-anchor=\"start\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" font-size=\"30\" stroke-width=\"0\" fill=\"none\" id=\"VAL_pb_2\" type=\"svg-ext-value\">\n   <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"start\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" font-weight=\"bold\" font-size=\"30\" fill=\"#0f172a\" y=\"358\" x=\"410\" id=\"svg_pb0016\"/>\n  </g>\n  <line stroke=\"#e2e8f0\" y2=\"376\" x2=\"840\" y1=\"376\" x1=\"64\" id=\"svg_pb0017\"/>\n  <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"start\" font-family=\"Consolas, &#x27;Segoe UI', monospace\" font-weight=\"bold\" font-size=\"24\" fill=\"#2563eb\" y=\"420\" x=\"72\" id=\"svg_pb0018\">animal_bodytype</text>\n  <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"start\" font-family=\"Consolas, &#x27;Segoe UI', monospace\" font-weight=\"normal\" font-size=\"24\" fill=\"#94a3b8\" y=\"420\" x=\"360\" id=\"svg_pb0019\">→</text>\n  <g data-name=\"t_pb_body\" text-anchor=\"start\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" font-size=\"30\" stroke-width=\"0\" fill=\"none\" id=\"VAL_pb_3\" type=\"svg-ext-value\">\n   <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"start\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" font-weight=\"bold\" font-size=\"30\" fill=\"#0f172a\" y=\"420\" x=\"410\" id=\"svg_pb0020\"/>\n  </g>\n  <line stroke=\"#e2e8f0\" y2=\"438\" x2=\"840\" y1=\"438\" x1=\"64\" id=\"svg_pb0021\"/>\n  <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"start\" font-family=\"Consolas, &#x27;Segoe UI', monospace\" font-weight=\"bold\" font-size=\"24\" fill=\"#2563eb\" y=\"482\" x=\"72\" id=\"svg_pb0022\">animal_age</text>\n  <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"start\" font-family=\"Consolas, &#x27;Segoe UI', monospace\" font-weight=\"normal\" font-size=\"24\" fill=\"#94a3b8\" y=\"482\" x=\"360\" id=\"svg_pb0023\">→</text>\n  <g data-name=\"t_pb_age\" text-anchor=\"start\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" font-size=\"30\" stroke-width=\"0\" fill=\"none\" id=\"VAL_pb_4\" type=\"svg-ext-value\">\n   <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"start\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" font-weight=\"bold\" font-size=\"30\" fill=\"#0f172a\" y=\"482\" x=\"410\" id=\"svg_pb0024\"/>\n  </g>\n  <line stroke=\"#e2e8f0\" y2=\"500\" x2=\"840\" y1=\"500\" x1=\"64\" id=\"svg_pb0025\"/>\n  <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"start\" font-family=\"Consolas, &#x27;Segoe UI', monospace\" font-weight=\"bold\" font-size=\"24\" fill=\"#2563eb\" y=\"544\" x=\"72\" id=\"svg_pb0026\">animal_colour</text>\n  <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"start\" font-family=\"Consolas, &#x27;Segoe UI', monospace\" font-weight=\"normal\" font-size=\"24\" fill=\"#94a3b8\" y=\"544\" x=\"360\" id=\"svg_pb0027\">→</text>\n  <g data-name=\"t_pb_colour\" text-anchor=\"start\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" font-size=\"30\" stroke-width=\"0\" fill=\"none\" id=\"VAL_pb_5\" type=\"svg-ext-value\">\n   <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"start\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" font-weight=\"bold\" font-size=\"30\" fill=\"#0f172a\" y=\"544\" x=\"410\" id=\"svg_pb0028\"/>\n  </g>\n  <line stroke=\"#e2e8f0\" y2=\"562\" x2=\"840\" y1=\"562\" x1=\"64\" id=\"svg_pb0029\"/>\n  <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"start\" font-family=\"Consolas, &#x27;Segoe UI', monospace\" font-weight=\"bold\" font-size=\"24\" fill=\"#2563eb\" y=\"606\" x=\"72\" id=\"svg_pb0030\">shelter_name</text>\n  <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"start\" font-family=\"Consolas, &#x27;Segoe UI', monospace\" font-weight=\"normal\" font-size=\"24\" fill=\"#94a3b8\" y=\"606\" x=\"360\" id=\"svg_pb0031\">→</text>\n  <g data-name=\"t_pb_shelter\" text-anchor=\"start\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" font-size=\"30\" stroke-width=\"0\" fill=\"none\" id=\"VAL_pb_6\" type=\"svg-ext-value\">\n   <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"start\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" font-weight=\"bold\" font-size=\"30\" fill=\"#0f172a\" y=\"606\" x=\"410\" id=\"svg_pb0032\"/>\n  </g>\n  <line stroke=\"#e2e8f0\" y2=\"624\" x2=\"840\" y1=\"624\" x1=\"64\" id=\"svg_pb0033\"/>\n  <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"start\" font-family=\"Consolas, &#x27;Segoe UI', monospace\" font-weight=\"bold\" font-size=\"24\" fill=\"#2563eb\" y=\"668\" x=\"72\" id=\"svg_pb0034\">album_file</text>\n  <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"start\" font-family=\"Consolas, &#x27;Segoe UI', monospace\" font-weight=\"normal\" font-size=\"24\" fill=\"#94a3b8\" y=\"668\" x=\"360\" id=\"svg_pb0035\">→</text>\n  <g data-name=\"t_pb_photo\" text-anchor=\"start\" font-family=\"Consolas, &#x27;Segoe UI', monospace\" font-size=\"22\" stroke-width=\"0\" fill=\"none\" id=\"VAL_pb_7\" type=\"svg-ext-value\">\n   <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"start\" font-family=\"Consolas, &#x27;Segoe UI', monospace\" font-weight=\"normal\" font-size=\"22\" fill=\"#0f172a\" y=\"668\" x=\"410\" id=\"svg_pb0036\"/>\n  </g>\n  <line stroke=\"#e2e8f0\" y2=\"686\" x2=\"1216\" y1=\"686\" x1=\"64\" id=\"svg_pb0037\"/>\n  <rect fill=\"#e2e8f0\" rx=\"10\" height=\"432\" width=\"368\" y=\"190\" x=\"854\" id=\"svg_pb0038\"/>\n  <g data-name=\"album_file 照片\" id=\"OXC_pb_photo\" type=\"svg-ext-own_ctrl-image\">\n   <rect fill=\"#e2e8f0\" height=\"420\" width=\"356\" y=\"196\" x=\"860\" id=\"svg_pb0039\"/>\n   <foreignObject height=\"420\" width=\"356\" y=\"196\" x=\"860\" id=\"svg_pb0040\">\n    <DIV type=\"widget\" id=\"D-OXC_pb_photo\" style=\"width:100%;height:100%\">\n     <svg viewBox=\"0 0 356 420\" height=\"420\" width=\"356\" xmlns=\"http://www.w3.org/2000/svg\">\n      <image preserveAspectRatio=\"xMidYMid meet\" height=\"420\" width=\"356\" y=\"0\" x=\"0\" id=\"pb_photo_img\"/>\n     </svg>\n    </DIV>\n   </foreignObject>\n  </g>\n  <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"start\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" font-weight=\"normal\" font-size=\"15\" fill=\"#64748b\" y=\"674\" x=\"1036\" id=\"svg_pb0041\">↑ SVG widget 顯示</text>\n  <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"start\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" font-weight=\"normal\" font-size=\"12\" fill=\"#64748b\" y=\"760\" x=\"64\" id=\"svg_pb0042\">農業部 2026 動物認領養　此開放資料依政府資料開放授權條款 (Open Government Data License) 進行公眾釋出，使用者於遵守本條款各項規定之前提下，得利用之。</text>\n  <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"start\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" font-weight=\"normal\" font-size=\"12\" fill=\"#64748b\" y=\"780\" x=\"64\" id=\"svg_pb0043\">政府資料開放授權條款：https://data.gov.tw/license</text>\n </g>\n</svg>",
+        "items": {
+          "VAL_pb_0": {
+            "id": "VAL_pb_0",
+            "type": "svg-ext-value",
+            "name": "t_pb_kind",
+            "label": "Value",
+            "property": {
+              "events": [],
+              "variableId": "t_pb_kind",
+              "actions": [],
+              "ranges": []
+            }
+          },
+          "VAL_pb_1": {
+            "id": "VAL_pb_1",
+            "type": "svg-ext-value",
+            "name": "t_pb_variety",
+            "label": "Value",
+            "property": {
+              "events": [],
+              "variableId": "t_pb_variety",
+              "actions": [],
+              "ranges": []
+            }
+          },
+          "VAL_pb_2": {
+            "id": "VAL_pb_2",
+            "type": "svg-ext-value",
+            "name": "t_pb_sex",
+            "label": "Value",
+            "property": {
+              "events": [],
+              "variableId": "t_pb_sex",
+              "actions": [],
+              "ranges": []
+            }
+          },
+          "VAL_pb_3": {
+            "id": "VAL_pb_3",
+            "type": "svg-ext-value",
+            "name": "t_pb_body",
+            "label": "Value",
+            "property": {
+              "events": [],
+              "variableId": "t_pb_body",
+              "actions": [],
+              "ranges": []
+            }
+          },
+          "VAL_pb_4": {
+            "id": "VAL_pb_4",
+            "type": "svg-ext-value",
+            "name": "t_pb_age",
+            "label": "Value",
+            "property": {
+              "events": [],
+              "variableId": "t_pb_age",
+              "actions": [],
+              "ranges": []
+            }
+          },
+          "VAL_pb_5": {
+            "id": "VAL_pb_5",
+            "type": "svg-ext-value",
+            "name": "t_pb_colour",
+            "label": "Value",
+            "property": {
+              "events": [],
+              "variableId": "t_pb_colour",
+              "actions": [],
+              "ranges": []
+            }
+          },
+          "VAL_pb_6": {
+            "id": "VAL_pb_6",
+            "type": "svg-ext-value",
+            "name": "t_pb_shelter",
+            "label": "Value",
+            "property": {
+              "events": [],
+              "variableId": "t_pb_shelter",
+              "actions": [],
+              "ranges": []
+            }
+          },
+          "VAL_pb_7": {
+            "id": "VAL_pb_7",
+            "type": "svg-ext-value",
+            "name": "t_pb_photo",
+            "label": "Value",
+            "property": {
+              "events": [],
+              "variableId": "t_pb_photo",
+              "actions": [],
+              "ranges": []
+            }
+          },
+          "OXC_pb_photo": {
+            "id": "OXC_pb_photo",
+            "type": "svg-ext-own_ctrl-image",
+            "name": "album_file 照片",
+            "property": {
+              "address": "pet-photo.svg",
+              "type": "widget",
+              "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"356\" height=\"420\" viewBox=\"0 0 356 420\"><image id=\"pb_photo_img\" x=\"0\" y=\"0\" width=\"356\" height=\"420\" preserveAspectRatio=\"xMidYMid meet\"></image></svg>",
+              "scriptContent": {
+                "moduleId": "wModule_pb_photo",
+                "content": "var wModule_pb_photo = window.wModule_pb_photo || {};\n(function() {\nwModule_pb_photo.putValue = function (name, value) {\n  var img = document.getElementById('pb_photo_img');\n  if (img && value) img.setAttribute('href', value);\n};\n})();\nwindow.wModule_pb_photo = wModule_pb_photo;"
+              },
+              "varsToBind": [
+                {
+                  "originalName": "_ps_url",
+                  "name": "_ps_url",
+                  "type": "string",
+                  "variableId": "t_pb_photo"
+                }
+              ],
+              "events": [],
+              "actions": [],
+              "ranges": []
+            }
+          }
+        }
+      },
+      {
+        "id": "v_pet_daily",
+        "name": "每日認養毛孩",
+        "type": "svg",
+        "profile": {
+          "width": 1280,
+          "height": 800,
+          "bkcolor": "#f6eee1",
+          "margin": 0
+        },
+        "variables": {},
+        "property": {
+          "events": []
+        },
+        "svgcontent": "<svg width=\"1280\" height=\"800\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:svg=\"http://www.w3.org/2000/svg\">\n <defs>\n  <clipPath id=\"paClip\">\n   <rect id=\"svg_1b26a990-bdf34598\" rx=\"4\" height=\"478\" width=\"486\" y=\"146\" x=\"112\"/>\n  </clipPath>\n  <filter height=\"130%\" width=\"130%\" y=\"-15%\" x=\"-15%\" id=\"paShadow\"><feDropShadow dx=\"0\" dy=\"6\" stdDeviation=\"8\" flood-color=\"#3b2a1e\" flood-opacity=\"0.18\"/></filter>\n  <filter id=\"paBlur\" x=\"-5%\" y=\"-5%\" width=\"110%\" height=\"110%\"><feGaussianBlur stdDeviation=\"14\"/></filter>\n  <pattern patternUnits=\"userSpaceOnUse\" height=\"26\" width=\"26\" id=\"paPaper\">\n   <circle id=\"svg_d2f18ccf-5e4d4106\" fill-opacity=\"0.22\" fill=\"#b89a78\" r=\"1\" cy=\"3\" cx=\"3\"/>\n  </pattern>\n </defs>\n <g>\n  <title>Layer 1</title>\n  <rect fill=\"#f6eee1\" height=\"800\" width=\"1280\" y=\"0\" x=\"0\" id=\"svg_pa0001\"/>\n  <rect fill=\"url(#paPaper)\" height=\"800\" width=\"1280\" y=\"0\" x=\"0\" id=\"svg_pa0002\"/>\n  <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"start\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" font-weight=\"bold\" font-size=\"38\" fill=\"#3b2a1e\" y=\"76\" x=\"64\" id=\"svg_pa0003\">今日認養毛孩</text>\n  <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"start\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" font-weight=\"normal\" font-size=\"16\" fill=\"#8a7361\" y=\"106\" x=\"66\" id=\"svg_pa0004\">每天介紹一個正在等家的孩子</text>\n  <g data-name=\"t_pad_day\" text-anchor=\"end\" font-family=\"Consolas, &#x27;Segoe UI', monospace\" font-size=\"20\" stroke-width=\"0\" fill=\"none\" id=\"VAL_pa_day\" type=\"svg-ext-value\">\n   <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"end\" font-family=\"Consolas, &#x27;Segoe UI', monospace\" font-weight=\"bold\" font-size=\"20\" fill=\"#c8602b\" y=\"72\" x=\"1216\" id=\"svg_pa0005\"/>\n  </g>\n  <g id=\"svg_fbbf7bba-b76e4c88\" class=\"pa-fade\" style=\"opacity:0\">\n   <g data-name=\"t_pad_count\" text-anchor=\"end\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" font-size=\"14\" stroke-width=\"0\" fill=\"none\" id=\"VAL_pa_count\" type=\"svg-ext-value\">\n    <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"end\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" font-weight=\"normal\" font-size=\"14\" fill=\"#8a7361\" y=\"102\" x=\"1216\" id=\"svg_pa0006\"/>\n   </g>\n  </g>\n  <g id=\"pa-xr\">\n   <rect fill=\"#0b1b33\" rx=\"20\" height=\"40\" width=\"180\" y=\"52\" x=\"440\" id=\"svg_pa0007\"/>\n   <text xml:space=\"preserve\" stroke-width=\"0\" text-anchor=\"middle\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" font-weight=\"bold\" font-size=\"17\" fill=\"#7fe7ff\" y=\"78\" x=\"530\" id=\"pa-xr-lb\">透視 JSON</text>\n  </g>\n  <g id=\"svg_d8cd80cb-43124c6f\" transform=\"rotate(-1.600000023841858 355.0000000000054,424.9999999999991) \">\n   <rect filter=\"url(#paShadow)\" fill=\"#fffdf8\" rx=\"6\" height=\"598\" width=\"526\" y=\"126\" x=\"92\" id=\"svg_pa0008\"/>\n   <rect fill=\"#e7d9c5\" height=\"478\" width=\"486\" y=\"146\" x=\"112\" id=\"svg_pa0009\"/>\n   <g id=\"svg_c6945641-32c142a4\" clip-path=\"url(#paClip)\" class=\"pa-fade\" style=\"opacity:0\">\n    <image id=\"pa-photo-bg\" x=\"112\" y=\"146\" width=\"486\" height=\"478\" preserveAspectRatio=\"xMidYMid slice\" filter=\"url(#paBlur)\" opacity=\"0.45\"/>\n    <image id=\"pa-photo\" x=\"112\" y=\"146\" width=\"486\" height=\"478\" preserveAspectRatio=\"xMidYMid meet\"/>\n    <rect fill=\"none\" stroke=\"#3b2a1e\" stroke-opacity=\"0.08\" x=\"112\" y=\"146\" width=\"486\" height=\"478\"/>\n   </g>\n   <g class=\"pa-fade\" style=\"opacity:0\" id=\"svg_c4532174-0cc44989\">\n    <g data-name=\"t_pad_sub\" type=\"svg-ext-value\" id=\"VAL_pa_sub\" fill=\"none\" stroke-width=\"0\" font-size=\"19\" font-family=\"Consolas, &#x27;Segoe UI', monospace\" text-anchor=\"middle\">\n     <text id=\"svg_pa0010\" x=\"355\" y=\"672\" fill=\"#3b2a1e\" font-size=\"19\" font-weight=\"bold\" font-family=\"Consolas, &#x27;Segoe UI', monospace\" text-anchor=\"middle\" stroke-width=\"0\" xml:space=\"preserve\"/>\n    </g>\n   </g>\n   <text id=\"svg_pa0011\" x=\"355\" y=\"702\" fill=\"#8a7361\" font-size=\"14\" font-weight=\"normal\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"middle\" stroke-width=\"0\" xml:space=\"preserve\">請以官方收容所公告為準</text>\n  </g>\n  <g class=\"pa-fade\" style=\"opacity:0\" id=\"svg_c414d0a7-2cd14344\">\n   <rect id=\"svg_pa0012\" x=\"690\" y=\"140\" width=\"66\" height=\"36\" rx=\"18\" fill=\"#c8602b\"/>\n   <g data-name=\"t_pad_kind\" type=\"svg-ext-value\" id=\"VAL_pa_kind\" fill=\"none\" stroke-width=\"0\" font-size=\"20\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"middle\">\n    <text id=\"svg_pa0013\" x=\"723\" y=\"165\" fill=\"#ffffff\" font-size=\"20\" font-weight=\"bold\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"middle\" stroke-width=\"0\" xml:space=\"preserve\"/>\n   </g>\n   <g data-name=\"t_pad_variety\" type=\"svg-ext-value\" id=\"VAL_pa_variety\" fill=\"none\" stroke-width=\"0\" font-size=\"28\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\">\n    <text id=\"svg_pa0014\" x=\"770\" y=\"168\" fill=\"#3b2a1e\" font-size=\"28\" font-weight=\"bold\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\" stroke-width=\"0\" xml:space=\"preserve\"/>\n   </g>\n   <g data-name=\"t_pad_pre\" type=\"svg-ext-value\" id=\"VAL_pa_pre\" fill=\"none\" stroke-width=\"0\" font-size=\"32\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\">\n    <text id=\"svg_pa0015\" x=\"690\" y=\"256\" fill=\"#3b2a1e\" font-size=\"32\" font-weight=\"bold\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\" stroke-width=\"0\" xml:space=\"preserve\"/>\n   </g>\n   <g data-name=\"t_pad_num\" type=\"svg-ext-value\" id=\"VAL_pa_num\" fill=\"none\" stroke-width=\"0\" font-size=\"84\" font-family=\"&#x27;Segoe UI', 'Microsoft JhengHei', sans-serif\" text-anchor=\"start\">\n    <text id=\"svg_pa0016\" x=\"704\" y=\"256\" fill=\"#c8602b\" font-size=\"84\" font-weight=\"bold\" font-family=\"&#x27;Segoe UI', 'Microsoft JhengHei', sans-serif\" text-anchor=\"start\" stroke-width=\"0\" xml:space=\"preserve\"/>\n   </g>\n   <g data-name=\"t_pad_post\" type=\"svg-ext-value\" id=\"VAL_pa_post\" fill=\"none\" stroke-width=\"0\" font-size=\"32\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\">\n    <text id=\"svg_pa0017\" x=\"714\" y=\"256\" fill=\"#3b2a1e\" font-size=\"32\" font-weight=\"bold\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\" stroke-width=\"0\" xml:space=\"preserve\"/>\n   </g>\n   <g data-name=\"t_pad_line\" type=\"svg-ext-value\" id=\"VAL_pa_line\" fill=\"none\" stroke-width=\"0\" font-size=\"24\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\">\n    <text id=\"svg_pa0018\" x=\"690\" y=\"298\" fill=\"#c8602b\" font-size=\"24\" font-weight=\"bold\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\" stroke-width=\"0\" xml:space=\"preserve\"/>\n   </g>\n   <rect id=\"svg_pa0019\" x=\"690\" y=\"314\" width=\"168\" height=\"84\" rx=\"12\" fill=\"#fffdf8\" stroke=\"#e4d5bf\"/>\n   <text id=\"svg_pa0020\" x=\"708\" y=\"344\" fill=\"#8a7361\" font-size=\"15\" font-weight=\"normal\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\" stroke-width=\"0\" xml:space=\"preserve\">性別</text>\n   <g data-name=\"t_pad_sex\" type=\"svg-ext-value\" id=\"VAL_pa_sex\" fill=\"none\" stroke-width=\"0\" font-size=\"25\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\">\n    <text id=\"svg_pa0021\" x=\"708\" y=\"380\" fill=\"#3b2a1e\" font-size=\"25\" font-weight=\"bold\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\" stroke-width=\"0\" xml:space=\"preserve\"/>\n   </g>\n   <rect id=\"svg_pa0022\" x=\"870\" y=\"314\" width=\"168\" height=\"84\" rx=\"12\" fill=\"#fffdf8\" stroke=\"#e4d5bf\"/>\n   <text id=\"svg_pa0023\" x=\"888\" y=\"344\" fill=\"#8a7361\" font-size=\"15\" font-weight=\"normal\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\" stroke-width=\"0\" xml:space=\"preserve\">體型</text>\n   <g data-name=\"t_pad_body\" type=\"svg-ext-value\" id=\"VAL_pa_body\" fill=\"none\" stroke-width=\"0\" font-size=\"25\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\">\n    <text id=\"svg_pa0024\" x=\"888\" y=\"380\" fill=\"#3b2a1e\" font-size=\"25\" font-weight=\"bold\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\" stroke-width=\"0\" xml:space=\"preserve\"/>\n   </g>\n   <rect id=\"svg_pa0025\" x=\"1050\" y=\"314\" width=\"168\" height=\"84\" rx=\"12\" fill=\"#fffdf8\" stroke=\"#e4d5bf\"/>\n   <text id=\"svg_pa0026\" x=\"1068\" y=\"344\" fill=\"#8a7361\" font-size=\"15\" font-weight=\"normal\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\" stroke-width=\"0\" xml:space=\"preserve\">年紀</text>\n   <g data-name=\"t_pad_age\" type=\"svg-ext-value\" id=\"VAL_pa_age\" fill=\"none\" stroke-width=\"0\" font-size=\"25\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\">\n    <text id=\"svg_pa0027\" x=\"1068\" y=\"380\" fill=\"#3b2a1e\" font-size=\"25\" font-weight=\"bold\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\" stroke-width=\"0\" xml:space=\"preserve\"/>\n   </g>\n   <rect id=\"svg_pa0028\" x=\"690\" y=\"410\" width=\"168\" height=\"84\" rx=\"12\" fill=\"#fffdf8\" stroke=\"#e4d5bf\"/>\n   <text id=\"svg_pa0029\" x=\"708\" y=\"440\" fill=\"#8a7361\" font-size=\"15\" font-weight=\"normal\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\" stroke-width=\"0\" xml:space=\"preserve\">毛色</text>\n   <g data-name=\"t_pad_colour\" type=\"svg-ext-value\" id=\"VAL_pa_colour\" fill=\"none\" stroke-width=\"0\" font-size=\"25\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\">\n    <text id=\"svg_pa0030\" x=\"708\" y=\"476\" fill=\"#3b2a1e\" font-size=\"25\" font-weight=\"bold\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\" stroke-width=\"0\" xml:space=\"preserve\"/>\n   </g>\n   <rect id=\"svg_pa0031\" x=\"870\" y=\"410\" width=\"168\" height=\"84\" rx=\"12\" fill=\"#fffdf8\" stroke=\"#e4d5bf\"/>\n   <text id=\"svg_pa0032\" x=\"888\" y=\"440\" fill=\"#8a7361\" font-size=\"15\" font-weight=\"normal\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\" stroke-width=\"0\" xml:space=\"preserve\">絕育</text>\n   <g data-name=\"t_pad_ster\" type=\"svg-ext-value\" id=\"VAL_pa_ster\" fill=\"none\" stroke-width=\"0\" font-size=\"25\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\">\n    <text id=\"svg_pa0033\" x=\"888\" y=\"476\" fill=\"#3b2a1e\" font-size=\"25\" font-weight=\"bold\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\" stroke-width=\"0\" xml:space=\"preserve\"/>\n   </g>\n   <rect id=\"svg_pa0034\" x=\"1050\" y=\"410\" width=\"168\" height=\"84\" rx=\"12\" fill=\"#fffdf8\" stroke=\"#e4d5bf\"/>\n   <text id=\"svg_pa0035\" x=\"1068\" y=\"440\" fill=\"#8a7361\" font-size=\"15\" font-weight=\"normal\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\" stroke-width=\"0\" xml:space=\"preserve\">狂犬病疫苗</text>\n   <g data-name=\"t_pad_bact\" type=\"svg-ext-value\" id=\"VAL_pa_bact\" fill=\"none\" stroke-width=\"0\" font-size=\"25\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\">\n    <text id=\"svg_pa0036\" x=\"1068\" y=\"476\" fill=\"#3b2a1e\" font-size=\"25\" font-weight=\"bold\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\" stroke-width=\"0\" xml:space=\"preserve\"/>\n   </g>\n   <rect id=\"svg_pa0037\" x=\"690\" y=\"512\" width=\"528\" height=\"108\" rx=\"12\" fill=\"#fbe7d3\"/>\n   <text id=\"svg_pa0038\" x=\"710\" y=\"543\" fill=\"#8a7361\" font-size=\"15\" font-weight=\"normal\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\" stroke-width=\"0\" xml:space=\"preserve\">收容所</text>\n   <g data-name=\"t_pad_shelter\" type=\"svg-ext-value\" id=\"VAL_pa_shelter\" fill=\"none\" stroke-width=\"0\" font-size=\"22\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\">\n    <text id=\"svg_pa0039\" x=\"768\" y=\"544\" fill=\"#3b2a1e\" font-size=\"22\" font-weight=\"bold\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\" stroke-width=\"0\" xml:space=\"preserve\"/>\n   </g>\n   <text id=\"svg_pa0040\" x=\"710\" y=\"574\" fill=\"#8a7361\" font-size=\"15\" font-weight=\"normal\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\" stroke-width=\"0\" xml:space=\"preserve\">電話</text>\n   <g data-name=\"t_pad_tel\" type=\"svg-ext-value\" id=\"VAL_pa_tel\" fill=\"none\" stroke-width=\"0\" font-size=\"19\" font-family=\"Consolas, &#x27;Segoe UI', monospace\" text-anchor=\"start\">\n    <text id=\"svg_pa0041\" x=\"768\" y=\"575\" fill=\"#3b2a1e\" font-size=\"19\" font-weight=\"bold\" font-family=\"Consolas, &#x27;Segoe UI', monospace\" text-anchor=\"start\" stroke-width=\"0\" xml:space=\"preserve\"/>\n   </g>\n   <text id=\"svg_pa0042\" x=\"710\" y=\"603\" fill=\"#8a7361\" font-size=\"15\" font-weight=\"normal\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\" stroke-width=\"0\" xml:space=\"preserve\">地址</text>\n   <g data-name=\"t_pad_addr\" type=\"svg-ext-value\" id=\"VAL_pa_addr\" fill=\"none\" stroke-width=\"0\" font-size=\"16\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\">\n    <text id=\"svg_pa0043\" x=\"768\" y=\"604\" fill=\"#3b2a1e\" font-size=\"16\" font-weight=\"normal\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\" stroke-width=\"0\" xml:space=\"preserve\"/>\n   </g>\n  </g>\n  <rect data-name=\"換一隻按鈕\" id=\"rect_pa_next\" x=\"690\" y=\"640\" width=\"256\" height=\"54\" rx=\"27\" fill=\"#c8602b\"/>\n  <g data-name=\"t_pad_btn\" type=\"svg-ext-value\" id=\"VAL_pa_btn\" pointer-events=\"none\" style=\"pointer-events:none\" fill=\"none\" stroke-width=\"0\" font-size=\"20\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"middle\">\n   <text id=\"svg_pa0044\" x=\"818\" y=\"675\" fill=\"#ffffff\" font-size=\"20\" font-weight=\"bold\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"middle\" stroke-width=\"0\" xml:space=\"preserve\"/>\n  </g>\n  <rect id=\"svg_pa0045\" x=\"962\" y=\"640\" width=\"256\" height=\"54\" rx=\"27\" fill=\"none\" stroke=\"#8a4b1f\" stroke-width=\"1.5\"/>\n  <foreignObject id=\"pa-official\" x=\"962\" y=\"640\" width=\"256\" height=\"54\">\n   <DIV style=\"height:54px;line-height:54px;text-align:center\">\n    <A id=\"svg_7e47bc32-4a6f49b5\" href=\"https://www.pet.gov.tw/AnimalApp/AnnounceMent.aspx?PageType=Adopt\" target=\"_blank\" rel=\"noopener\" style=\"cursor:pointer\">官方認養資訊 ↗</A>\n   </DIV>\n  </foreignObject>\n  <line id=\"svg_pa0046\" x1=\"64\" y1=\"748\" x2=\"1216\" y2=\"748\" stroke=\"#d9c7ae\"/>\n  <text id=\"svg_pa0047\" x=\"64\" y=\"770\" fill=\"#8a7361\" font-size=\"12\" font-weight=\"normal\" font-family=\"&#x27;Microsoft JhengHei', 'Segoe UI', sans-serif\" text-anchor=\"start\" stroke-width=\"0\" xml:space=\"preserve\">資料來源：農業部 2026 動物認領養開放資料，依政府資料開放授權條款 (https://data.gov.tw/license) 釋出。</text>\n  <g id=\"pa-xray\" style=\"display:none\"/>\n </g>\n</svg>",
+        "items": {
+          "VAL_pa_day": {
+            "id": "VAL_pa_day",
+            "type": "svg-ext-value",
+            "name": "t_pad_day",
+            "label": "Value",
+            "property": {
+              "events": [],
+              "variableId": "t_pad_day",
+              "actions": [],
+              "ranges": []
+            }
+          },
+          "VAL_pa_count": {
+            "id": "VAL_pa_count",
+            "type": "svg-ext-value",
+            "name": "t_pad_count",
+            "label": "Value",
+            "property": {
+              "events": [],
+              "variableId": "t_pad_count",
+              "actions": [],
+              "ranges": []
+            }
+          },
+          "VAL_pa_sub": {
+            "id": "VAL_pa_sub",
+            "type": "svg-ext-value",
+            "name": "t_pad_sub",
+            "label": "Value",
+            "property": {
+              "events": [],
+              "variableId": "t_pad_sub",
+              "actions": [],
+              "ranges": []
+            }
+          },
+          "VAL_pa_kind": {
+            "id": "VAL_pa_kind",
+            "type": "svg-ext-value",
+            "name": "t_pad_kind",
+            "label": "Value",
+            "property": {
+              "events": [],
+              "variableId": "t_pad_kind",
+              "actions": [],
+              "ranges": []
+            }
+          },
+          "VAL_pa_variety": {
+            "id": "VAL_pa_variety",
+            "type": "svg-ext-value",
+            "name": "t_pad_variety",
+            "label": "Value",
+            "property": {
+              "events": [],
+              "variableId": "t_pad_variety",
+              "actions": [],
+              "ranges": []
+            }
+          },
+          "VAL_pa_pre": {
+            "id": "VAL_pa_pre",
+            "type": "svg-ext-value",
+            "name": "t_pad_pre",
+            "label": "Value",
+            "property": {
+              "events": [],
+              "variableId": "t_pad_pre",
+              "actions": [],
+              "ranges": []
+            }
+          },
+          "VAL_pa_num": {
+            "id": "VAL_pa_num",
+            "type": "svg-ext-value",
+            "name": "t_pad_num",
+            "label": "Value",
+            "property": {
+              "events": [],
+              "variableId": "t_pad_num",
+              "actions": [],
+              "ranges": []
+            }
+          },
+          "VAL_pa_post": {
+            "id": "VAL_pa_post",
+            "type": "svg-ext-value",
+            "name": "t_pad_post",
+            "label": "Value",
+            "property": {
+              "events": [],
+              "variableId": "t_pad_post",
+              "actions": [],
+              "ranges": []
+            }
+          },
+          "VAL_pa_line": {
+            "id": "VAL_pa_line",
+            "type": "svg-ext-value",
+            "name": "t_pad_line",
+            "label": "Value",
+            "property": {
+              "events": [],
+              "variableId": "t_pad_line",
+              "actions": [],
+              "ranges": []
+            }
+          },
+          "VAL_pa_sex": {
+            "id": "VAL_pa_sex",
+            "type": "svg-ext-value",
+            "name": "t_pad_sex",
+            "label": "Value",
+            "property": {
+              "events": [],
+              "variableId": "t_pad_sex",
+              "actions": [],
+              "ranges": []
+            }
+          },
+          "VAL_pa_body": {
+            "id": "VAL_pa_body",
+            "type": "svg-ext-value",
+            "name": "t_pad_body",
+            "label": "Value",
+            "property": {
+              "events": [],
+              "variableId": "t_pad_body",
+              "actions": [],
+              "ranges": []
+            }
+          },
+          "VAL_pa_age": {
+            "id": "VAL_pa_age",
+            "type": "svg-ext-value",
+            "name": "t_pad_age",
+            "label": "Value",
+            "property": {
+              "events": [],
+              "variableId": "t_pad_age",
+              "actions": [],
+              "ranges": []
+            }
+          },
+          "VAL_pa_colour": {
+            "id": "VAL_pa_colour",
+            "type": "svg-ext-value",
+            "name": "t_pad_colour",
+            "label": "Value",
+            "property": {
+              "events": [],
+              "variableId": "t_pad_colour",
+              "actions": [],
+              "ranges": []
+            }
+          },
+          "VAL_pa_ster": {
+            "id": "VAL_pa_ster",
+            "type": "svg-ext-value",
+            "name": "t_pad_ster",
+            "label": "Value",
+            "property": {
+              "events": [],
+              "variableId": "t_pad_ster",
+              "actions": [],
+              "ranges": []
+            }
+          },
+          "VAL_pa_bact": {
+            "id": "VAL_pa_bact",
+            "type": "svg-ext-value",
+            "name": "t_pad_bact",
+            "label": "Value",
+            "property": {
+              "events": [],
+              "variableId": "t_pad_bact",
+              "actions": [],
+              "ranges": []
+            }
+          },
+          "VAL_pa_shelter": {
+            "id": "VAL_pa_shelter",
+            "type": "svg-ext-value",
+            "name": "t_pad_shelter",
+            "label": "Value",
+            "property": {
+              "events": [],
+              "variableId": "t_pad_shelter",
+              "actions": [],
+              "ranges": []
+            }
+          },
+          "VAL_pa_tel": {
+            "id": "VAL_pa_tel",
+            "type": "svg-ext-value",
+            "name": "t_pad_tel",
+            "label": "Value",
+            "property": {
+              "events": [],
+              "variableId": "t_pad_tel",
+              "actions": [],
+              "ranges": []
+            }
+          },
+          "VAL_pa_addr": {
+            "id": "VAL_pa_addr",
+            "type": "svg-ext-value",
+            "name": "t_pad_addr",
+            "label": "Value",
+            "property": {
+              "events": [],
+              "variableId": "t_pad_addr",
+              "actions": [],
+              "ranges": []
+            }
+          },
+          "rect_pa_next": {
+            "id": "rect_pa_next",
+            "type": "svg-ext-shapes-rect",
+            "name": "換一隻按鈕",
+            "property": {
+              "events": [
+                {
+                  "type": "click",
+                  "action": "onSetValue",
+                  "actparam": "1",
+                  "actoptions": {
+                    "variable": {
+                      "variableId": "t_pad_cmd",
+                      "bitmask": null
+                    },
+                    "function": null
+                  }
+                }
+              ],
+              "actions": [],
+              "ranges": []
+            }
+          },
+          "VAL_pa_btn": {
+            "id": "VAL_pa_btn",
+            "type": "svg-ext-value",
+            "name": "t_pad_btn",
+            "label": "Value",
+            "property": {
+              "events": [],
+              "variableId": "t_pad_btn",
+              "actions": [],
+              "ranges": []
+            }
+          }
+        }
+      }
+    ],
+    "layout": {
+      "autoresize": true,
+      "start": "v_pet_daily",
+      "navigation": {
+        "mode": "push",
+        "type": "inline",
+        "bkcolor": "#0f1629",
+        "fgcolor": "#cbd5e1",
+        "items": [
+          {
+            "icon": "pets",
+            "text": "每日認養毛孩",
+            "view": "v_pet_daily",
+            "link": "",
+            "image": "",
+            "permission": null,
+            "permissionRoles": {
+              "show": [],
+              "enabled": []
+            }
+          },
+          {
+            "icon": "link",
+            "text": "WebAPI 極簡綁定",
+            "view": "v_adopt_basic",
+            "link": "",
+            "image": "",
+            "permission": null,
+            "permissionRoles": {
+              "show": [],
+              "enabled": []
+            }
+          }
+        ],
+        "logo": false
+      },
+      "header": {
+        "title": "外部資料看板",
+        "bkcolor": "#0f1629",
+        "fgcolor": "#cbd5e1",
+        "height": 46,
+        "buttonHeight": 36,
+        "fontSize": 14,
+        "items": [],
+        "itemsAnchor": "left",
+        "dateTimeDisplay": "yyyy/MM/dd HH:mm:ss"
+      },
+      "showdev": true,
+      "zoom": "autoresize",
+      "inputdialog": "false",
+      "hidenavigation": false,
+      "theme": "",
+      "loginonstart": false,
+      "loginoverlaycolor": "none",
+      "show_connection_error": true,
+      "customStyles": ""
+    }
+  },
+  "recipes": [],
+  "ar": {
+    "enabled": false,
+    "markers": []
+  },
+  "version": "1.01",
+  "name": "FUXA WebAPI Adopt Pet",
+  "graphs": [],
+  "plugin": [],
+  "charts": [],
+  "server": {
+    "id": "0",
+    "name": "FUXA Server",
+    "type": "FuxaServer",
+    "enabled": true,
+    "property": {},
+    "polling": 1000,
+    "tags": {
+      "t_pad_addr": {
+        "id": "t_pad_addr",
+        "name": "PAD_ADDR",
+        "label": "收容所地址",
+        "type": "string",
+        "init": "",
+        "daq": {
+          "enabled": false,
+          "changed": false,
+          "interval": 60,
+          "restored": false
+        }
+      },
+      "t_pad_age": {
+        "id": "t_pad_age",
+        "name": "PAD_AGE",
+        "label": "年齡",
+        "type": "string",
+        "init": "",
+        "daq": {
+          "enabled": false,
+          "changed": false,
+          "interval": 60,
+          "restored": false
+        }
+      },
+      "t_pad_bact": {
+        "id": "t_pad_bact",
+        "name": "PAD_BACT",
+        "label": "狂犬病疫苗",
+        "type": "string",
+        "init": "",
+        "daq": {
+          "enabled": false,
+          "changed": false,
+          "interval": 60,
+          "restored": false
+        }
+      },
+      "t_pad_body": {
+        "id": "t_pad_body",
+        "name": "PAD_BODY",
+        "label": "體型",
+        "type": "string",
+        "init": "",
+        "daq": {
+          "enabled": false,
+          "changed": false,
+          "interval": 60,
+          "restored": false
+        }
+      },
+      "t_pad_btn": {
+        "id": "t_pad_btn",
+        "name": "PAD_BTN",
+        "label": "換一隻按鈕文字",
+        "type": "string",
+        "init": "↻  換一隻",
+        "daq": {
+          "enabled": false,
+          "changed": false,
+          "interval": 60,
+          "restored": false
+        }
+      },
+      "t_pad_cmd": {
+        "id": "t_pad_cmd",
+        "name": "PAD_CMD",
+        "label": "換一隻指令",
+        "type": "number",
+        "init": "0",
+        "daq": {
+          "enabled": false,
+          "changed": false,
+          "interval": 60,
+          "restored": false
+        }
+      },
+      "t_pad_colour": {
+        "id": "t_pad_colour",
+        "name": "PAD_COLOUR",
+        "label": "毛色",
+        "type": "string",
+        "init": "",
+        "daq": {
+          "enabled": false,
+          "changed": false,
+          "interval": 60,
+          "restored": false
+        }
+      },
+      "t_pad_count": {
+        "id": "t_pad_count",
+        "name": "PAD_COUNT",
+        "label": "資料更新與已介紹數",
+        "type": "string",
+        "init": "",
+        "daq": {
+          "enabled": false,
+          "changed": false,
+          "interval": 60,
+          "restored": false
+        }
+      },
+      "t_pad_day": {
+        "id": "t_pad_day",
+        "name": "PAD_DAY",
+        "label": "日期",
+        "type": "string",
+        "init": "",
+        "daq": {
+          "enabled": false,
+          "changed": false,
+          "interval": 60,
+          "restored": false
+        }
+      },
+      "t_pad_json": {
+        "id": "t_pad_json",
+        "name": "PAD_JSON",
+        "label": "推播內容 JSON",
+        "type": "string",
+        "init": "",
+        "daq": {
+          "enabled": false,
+          "changed": false,
+          "interval": 60,
+          "restored": false
+        }
+      },
+      "t_pad_kind": {
+        "id": "t_pad_kind",
+        "name": "PAD_KIND",
+        "label": "種類",
+        "type": "string",
+        "init": "",
+        "daq": {
+          "enabled": false,
+          "changed": false,
+          "interval": 60,
+          "restored": false
+        }
+      },
+      "t_pad_line": {
+        "id": "t_pad_line",
+        "name": "PAD_LINE",
+        "label": "等家文案",
+        "type": "string",
+        "init": "",
+        "daq": {
+          "enabled": false,
+          "changed": false,
+          "interval": 60,
+          "restored": false
+        }
+      },
+      "t_pad_num": {
+        "id": "t_pad_num",
+        "name": "PAD_NUM",
+        "label": "等家天數",
+        "type": "string",
+        "init": "",
+        "daq": {
+          "enabled": false,
+          "changed": false,
+          "interval": 60,
+          "restored": false
+        }
+      },
+      "t_pad_post": {
+        "id": "t_pad_post",
+        "name": "PAD_POST",
+        "label": "等家文字(後)",
+        "type": "string",
+        "init": "",
+        "daq": {
+          "enabled": false,
+          "changed": false,
+          "interval": 60,
+          "restored": false
+        }
+      },
+      "t_pad_pre": {
+        "id": "t_pad_pre",
+        "name": "PAD_PRE",
+        "label": "等家文字(前)",
+        "type": "string",
+        "init": "",
+        "daq": {
+          "enabled": false,
+          "changed": false,
+          "interval": 60,
+          "restored": false
+        }
+      },
+      "t_pad_sex": {
+        "id": "t_pad_sex",
+        "name": "PAD_SEX",
+        "label": "性別",
+        "type": "string",
+        "init": "",
+        "daq": {
+          "enabled": false,
+          "changed": false,
+          "interval": 60,
+          "restored": false
+        }
+      },
+      "t_pad_shelter": {
+        "id": "t_pad_shelter",
+        "name": "PAD_SHELTER",
+        "label": "收容所",
+        "type": "string",
+        "init": "",
+        "daq": {
+          "enabled": false,
+          "changed": false,
+          "interval": 60,
+          "restored": false
+        }
+      },
+      "t_pad_ster": {
+        "id": "t_pad_ster",
+        "name": "PAD_STER",
+        "label": "絕育",
+        "type": "string",
+        "init": "",
+        "daq": {
+          "enabled": false,
+          "changed": false,
+          "interval": 60,
+          "restored": false
+        }
+      },
+      "t_pad_sub": {
+        "id": "t_pad_sub",
+        "name": "PAD_SUB",
+        "label": "收容編號",
+        "type": "string",
+        "init": "",
+        "daq": {
+          "enabled": false,
+          "changed": false,
+          "interval": 60,
+          "restored": false
+        }
+      },
+      "t_pad_tel": {
+        "id": "t_pad_tel",
+        "name": "PAD_TEL",
+        "label": "收容所電話",
+        "type": "string",
+        "init": "",
+        "daq": {
+          "enabled": false,
+          "changed": false,
+          "interval": 60,
+          "restored": false
+        }
+      },
+      "t_pad_variety": {
+        "id": "t_pad_variety",
+        "name": "PAD_VARIETY",
+        "label": "品種",
+        "type": "string",
+        "init": "",
+        "daq": {
+          "enabled": false,
+          "changed": false,
+          "interval": 60,
+          "restored": false
+        }
+      }
+    }
+  },
+  "scripts": [
+    {
+      "id": "s_pet_daily",
+      "name": "petDaily",
+      "sync": false,
+      "parameters": [],
+      "mode": "SERVER",
+      "scheduling": {
+        "mode": "interval",
+        "interval": 3,
+        "schedules": []
+      },
+      "permission": null,
+      "permissionRoles": {
+        "enabled": []
+      },
+      "code": "// 每日認養毛孩 petDaily(SERVER)\n// 資料來源:WebAPI 連線 ADOPT_PET → 農業部「動物認領養」開放資料\n// 每天(Asia/Taipei)抽一筆 → 用 $setDeviceProperty 改連線網址的 $skip → $getDevice().polling() 立即讀取 → 檢查後組卡片\nconst fs = require('fs');\nconst path = require('path');\nconst g = global.__petDaily || (global.__petDaily = {});\nconst DIR = path.join(process.cwd(), '_petdaily');\nconst FILE = path.join(DIR, 'state.json');\nconst DEV = 'ADOPT_PET';\nconst URL_OF = (skip) => 'https://data.moa.gov.tw/Service/OpenData/TransService.aspx?UnitId=QcbUEzN6E6DL&animal_status=OPEN&$top=1&$skip=' + skip;\nconst MAX_TRIES = 12, EMPTY_MS = 15000;\n\nif (!g.state) {\n    try { g.state = JSON.parse(fs.readFileSync(FILE, 'utf8')); } catch (e) { g.state = { target: 0, card: null, history: [], pool: 1500, pending: false, prevId: null, tries: 0, push: 0 }; }\n}\nconst st = g.state;\nconst save = () => { try { fs.mkdirSync(DIR, { recursive: true }); fs.writeFileSync(FILE, JSON.stringify(st, null, 1)); } catch (e) { console.error('pet save', e.message); } };\nconst put = async (id, v) => { if ($getTag(id) !== v) await $setTag(id, v); };\nconst now = Date.now();\nconst today = new Date().toLocaleDateString('sv-SE', { timeZone: 'Asia/Taipei' });\nconst cmd = Number($getTag('t_pad_cmd')) === 1;\n\nfunction pick() {\n    let skip = 0;\n    for (let k = 0; k < 20; k++) {\n        skip = Math.floor(Math.random() * st.pool);\n        if (skip !== st.target) break;\n    }\n    st.target = skip;\n    st.pending = true;\n    st.prevId = $getTag('t_pa_id');\n    st.tries = (st.tries || 0) + 1;\n    g.appliedAt = now;\n    g.lastPoll = 0;\n    save();\n}\nasync function stop() {\n    st.pending = false;\n    st.tries = 0;\n    g.cmdTaken = false;\n    save();\n    if (Number($getTag('t_pad_cmd')) === 1) await $setTag('t_pad_cmd', 0);\n}\nasync function retry() {\n    if ((st.tries || 0) >= MAX_TRIES) { g.failAt = now; await stop(); } else pick();\n}\n\n// 1) 決定要不要換一筆\nconst expired = !st.card || st.card.date !== today || st.card.since === undefined;\nif (!st.pending && ((expired && now - (g.failAt || 0) > 60000) || (cmd && !g.cmdTaken))) {\n    if (cmd) g.cmdTaken = true;\n    st.tries = 0;\n    pick();\n}\n\n// 2) 把目標寫進 WebAPI 連線網址,讀取回應\nif (st.pending) {\n    g.appliedAt = g.appliedAt || now;\n    const url = URL_OF(st.target);\n    const p = $getDeviceProperty(DEV);\n    if (p && p.address !== url) {\n        $setDeviceProperty(DEV, Object.assign({}, p, { address: url, method: 'GET', format: 'JSON' }));\n        g.appliedAt = now;\n        g.lastPoll = 0;\n    }\n    const id = $getTag('t_pa_id');\n    if (id !== null && id !== undefined && id !== st.prevId) {\n        const photo = String($getTag('t_pa_photo') || '').trim();\n        const open = String($getTag('t_pa_open') || '').trim();\n        const recent = (st.history || []).slice(0, 30).map(h => h.id);\n        // 沒有照片、尚未開放認養、最近抽過 → 換下一筆\n        if (!photo || (open && open > today) || recent.indexOf(id) >= 0) {\n            await retry();\n        } else {\n            const SEX = { M: '公', F: '母', N: '未知' };\n            const BODY = { SMALL: '小型', MEDIUM: '中型', BIG: '大型' };\n            const AGE = { CHILD: '幼年', ADULT: '成年' };\n            const YN = { T: '已完成', F: '尚未', N: '未確認' };\n            const text = (t) => String($getTag(t) || '').trim();\n            st.card = {\n                id, sub: text('t_pa_subid'), kind: text('t_pa_kind'), variety: text('t_pa_variety') || text('t_pa_kind'),\n                sex: SEX[text('t_pa_sex')] || '未知', body: BODY[text('t_pa_body')] || '未知', age: AGE[text('t_pa_age')] || '未知',\n                colour: text('t_pa_colour') || '未知', ster: YN[text('t_pa_ster')] || '未確認', bact: YN[text('t_pa_bact')] || '未確認',\n                shelter: text('t_pa_shelter'), tel: text('t_pa_tel'), addr: text('t_pa_addr'), update: text('t_pa_update'),\n                photo, date: today,\n                since: open || text('t_pa_create').replace(/\\//g, '-'), sinceField: open ? 'animal_opendate' : 'animal_createtime', sinceTag: open ? 't_pa_open' : 't_pa_create',\n                // 透視模式顯示 API 原始值\n                raw: { kind: text('t_pa_kind'), variety: text('t_pa_variety'), sex: text('t_pa_sex'), body: text('t_pa_body'), age: text('t_pa_age'),\n                    colour: text('t_pa_colour'), ster: text('t_pa_ster'), bact: text('t_pa_bact'), since: open || text('t_pa_create') },\n                api: 'GET ' + URL_OF(st.target).replace('https://', '')\n            };\n            st.push = now;\n            st.history = [{ id, date: today }].concat((st.history || []).filter(h => h.id !== id)).slice(0, 120);\n            await stop();\n        }\n    } else if (now - g.appliedAt > EMPTY_MS) {\n        // 超過資料筆數時 API 回空陣列,WebAPI 不會更新 tag → 縮小抽選範圍再試\n        st.pool = Math.max(200, Math.floor(st.target * 0.8));\n        await retry();\n    } else if (now - g.appliedAt > 2500 && now - (g.lastPoll || 0) > 6000) {\n        g.lastPoll = now;\n        try { const d = $getDevice(DEV); if (d && d.polling) d.polling(); } catch (e) { console.error('pet poll', e.message); }\n    }\n}\n\n// 3) 輸出到 FUXA Server tags\nawait put('t_pad_btn', st.pending ? '◌  正在找…' : '↻  換一隻');\nconst c = st.card;\nif (c) {\n    const [y, m, d] = c.date.split('-');\n    await put('t_pad_day', y + ' · ' + m + ' · ' + d);\n    // 等家天數:開放認養日到今天\n    const days = /^\\d{4}-\\d{2}-\\d{2}/.test(c.since) ? Math.floor((Date.parse(c.date) - Date.parse(c.since.slice(0, 10))) / 86400000) : -1;\n    await put('t_pad_pre', days > 0 ? '已經等了' : (days === 0 ? '今天開始等一個家' : '正在等一個家'));\n    await put('t_pad_num', days > 0 ? String(days) : '');\n    await put('t_pad_post', days > 0 ? '天' : '');\n    await put('t_pad_kind', c.kind);\n    await put('t_pad_variety', c.variety);\n    await put('t_pad_line', '我在「' + c.shelter + '」等你');\n    await put('t_pad_sex', c.sex);\n    await put('t_pad_body', c.body);\n    await put('t_pad_age', c.age);\n    await put('t_pad_colour', c.colour);\n    await put('t_pad_ster', c.ster);\n    await put('t_pad_bact', c.bact);\n    await put('t_pad_shelter', c.shelter);\n    await put('t_pad_tel', c.tel);\n    await put('t_pad_addr', c.addr.replace(/[（(]\\s*座標.*?[）)]/g, '').trim());\n    await put('t_pad_sub', '收容編號  ' + (c.sub || c.id));\n    await put('t_pad_count', '資料更新 ' + c.update + '  ·  已介紹 ' + (st.history || []).length + ' 隻');\n    await put('t_pad_json', JSON.stringify(Object.assign({ push: st.push, busy: !!st.pending }, c)));\n}\n"
+    },
+    {
+      "id": "s_pet_ui",
+      "name": "petUI",
+      "sync": false,
+      "parameters": [],
+      "mode": "CLIENT",
+      "scheduling": {
+        "interval": 3,
+        "mode": "start"
+      },
+      "permission": null,
+      "permissionRoles": {
+        "enabled": []
+      },
+      "code": "// 每日認養毛孩 petUI(CLIENT):換卡同步、等家天數排版、長文字縮字、JSON 透視模式\n// 只在執行畫面跑:編輯器裡跑會改動畫面,存檔時把照片網址、隱藏狀態寫進專案\nif (!window.__petUI && location.pathname.indexOf('/editor') < 0 && location.pathname.indexOf('/lab') < 0) {\n  window.__petUI = true;\n  const svc = this;\n  const NS = 'http://www.w3.org/2000/svg';\n  const css = document.createElement('style');\n  css.textContent = `\n  .pa-fade { transition: opacity .45s ease; }\n  .pa-fade.pa-dim { opacity: .18; }\n  .pa-fade.pa-hold { opacity: 0 !important; transition: none !important; }\n  #pa-photo { transition: filter 1.1s ease; }\n  #pa-photo.pa-dev { filter: sepia(1) brightness(1.5) contrast(.55) blur(6px); }\n  #pa-official a { color: #8a4b1f; font: 700 17px 'Microsoft JhengHei','Segoe UI',sans-serif; text-decoration: none; letter-spacing: .06em; }\n  #pa-official a:hover { text-decoration: underline; }`;\n  document.head.appendChild(css);\n\n  // 清掉被舊編輯器存進 SVG 的執行狀態\n  const cleanBaked = () => {\n    document.querySelectorAll('[data-on],[data-key]').forEach((e) => { e.removeAttribute('data-on'); e.removeAttribute('data-key'); });\n    document.querySelectorAll('.pa-hold,.pa-dim,.pa-dev').forEach((e) => e.classList.remove('pa-hold', 'pa-dim', 'pa-dev'));\n  };\n\n  let card = null, xray = false, swapping = false, observed = null, lastText = null;\n  const wait = (ms) => new Promise((r) => setTimeout(r, ms));\n  const fades = (cls, on) => document.querySelectorAll('.pa-fade').forEach((e) => e.classList.toggle(cls, on));\n  const href = (el, url) => { el.setAttribute('href', url); el.setAttributeNS('http://www.w3.org/1999/xlink', 'href', url); };\n  const textOf = (id) => document.querySelector('#' + id + ' text');\n  const fit = (id, maxW, base) => {\n    const t = textOf(id);\n    if (!t || !t.textContent) return;\n    t.setAttribute('font-size', base);\n    const w = t.getComputedTextLength();\n    if (w > maxW) t.setAttribute('font-size', Math.max(11, Math.floor(base * maxW / w)));\n  };\n  const placeX = (t, x) => { t.setAttribute('x', x); t.querySelectorAll('tspan').forEach((s) => s.setAttribute('x', x)); };\n\n  // 「已經等了 87 天」三段文字依實際寬度接續排列\n  function layoutWait() {\n    const pre = textOf('VAL_pa_pre'), num = textOf('VAL_pa_num'), post = textOf('VAL_pa_post');\n    if (!pre || !num || !post) return;\n    let x = 690 + pre.getComputedTextLength() + 14;\n    placeX(num, x);\n    x += num.getComputedTextLength() + 10;\n    placeX(post, x);\n  }\n  function fitAll() {\n    fit('VAL_pa_variety', 440, 28);\n    fit('VAL_pa_line', 530, 24);\n    fit('VAL_pa_shelter', 430, 22);\n    fit('VAL_pa_addr', 430, 16);\n    fit('VAL_pa_sub', 480, 19);\n    layoutWait();\n  }\n\n  // 文字一變動就先藏起來(在瀏覽器繪製前),等新照片備妥再一起顯示\n  function watch() {\n    const t = textOf('VAL_pa_sub');\n    if (!t || t === observed) return;\n    observed = t;\n    lastText = t.textContent;\n    new MutationObserver(() => {\n      if (t.textContent !== lastText) { lastText = t.textContent; if (!swapping) fades('pa-hold', true); }\n    }).observe(t, { childList: true, subtree: true, characterData: true });\n  }\n\n  async function swap(c, key, img) {\n    swapping = true;\n    fades('pa-hold', true);\n    try { const p = new Image(); p.src = c.photo; await Promise.race([p.decode(), wait(6000)]); } catch (e) { }\n    const shown = new Promise((r) => { img.onload = r; img.onerror = r; });\n    img.classList.add('pa-dev');\n    href(img, c.photo);\n    href(document.getElementById('pa-photo-bg'), c.photo);\n    await Promise.race([shown, wait(1500)]);\n    // 卡片 JSON 可能比畫面綁定的文字先到:等綁定文字也換成這一筆才顯示\n    for (let i = 0; i < 40; i++) {\n      const s = textOf('VAL_pa_sub');\n      if (s && s.textContent.indexOf(String(c.sub || c.id)) >= 0) break;\n      await wait(100);\n    }\n    await wait(150);\n    img.__paKey = key;\n    fitAll();\n    drawXray();\n    // 第一次排版與照片都好了才顯示(SVG 裡預設 opacity:0,避免腳本啟動前文字疊在一起)\n    document.querySelectorAll('.pa-fade').forEach((e) => { e.style.opacity = ''; });\n    fades('pa-hold', false);\n    fades('pa-dim', false);\n    swapping = false;\n    setTimeout(() => img.classList.remove('pa-dev'), 150);\n  }\n\n  // ---------- JSON 透視模式 ----------\n  function chip(g, b, lines) {\n    const rect = document.createElementNS(NS, 'rect');\n    Object.entries({ x: b.x, y: b.y, width: b.w, height: b.h, rx: 10, fill: '#0b1b33', 'fill-opacity': 1, stroke: '#7fe7ff', 'stroke-opacity': .55 }).forEach(([k, v]) => rect.setAttribute(k, v));\n    g.appendChild(rect);\n    const gap = 21, top = b.y + (b.h - gap * lines.length) / 2 + 16;\n    lines.forEach((s, i) => {\n      const t = document.createElementNS(NS, 'text');\n      Object.entries({ x: b.x + 12, y: top + i * gap, 'font-size': 15, 'font-weight': i ? 400 : 700, fill: i ? '#ffffff' : '#7fe7ff', 'font-family': 'Consolas, monospace' }).forEach(([k, v]) => t.setAttribute(k, v));\n      t.textContent = s;\n      g.appendChild(t);\n      const w = t.getComputedTextLength(), max = b.w - 24;\n      if (w > max) t.setAttribute('font-size', Math.max(9, Math.floor(15 * max / w)));\n    });\n  }\n  function drawXray() {\n    const g = document.getElementById('pa-xray'), c = card;\n    if (!g) return;\n    g.style.display = xray ? '' : 'none';\n    const lb = document.getElementById('pa-xr-lb');\n    if (lb) lb.textContent = xray ? '關閉透視' : '透視 JSON';\n    while (g.firstChild) g.removeChild(g.firstChild);\n    if (!xray || !c || !c.raw) return;\n    const r = c.raw, q = (v) => '\"' + v + '\"';\n    chip(g, { x: 64, y: 112, w: 1154, h: 26 }, [c.api]);\n    chip(g, { x: 690, y: 140, w: 528, h: 34 }, ['animal_kind ' + q(r.kind) + ' / animal_Variety ' + q(r.variety)]);\n    chip(g, { x: 690, y: 182, w: 528, h: 92 }, [c.sinceField + ': ' + q(r.since), '→ tag ' + c.sinceTag, '→ 腳本算到今天 = 等家天數']);\n    [['animal_sex', r.sex, 't_pa_sex'], ['animal_bodytype', r.body, 't_pa_body'], ['animal_age', r.age, 't_pa_age'],\n     ['animal_colour', r.colour, 't_pa_colour'], ['animal_sterilization', r.ster, 't_pa_ster'], ['animal_bacterin', r.bact, 't_pa_bact']]\n      .forEach(([path, raw, tag], i) => chip(g, { x: 690 + (i % 3) * 180, y: 314 + Math.floor(i / 3) * 96, w: 168, h: 84 }, [path, q(raw), '→ ' + tag]));\n    chip(g, { x: 690, y: 512, w: 528, h: 108 }, ['shelter_name    → t_pa_shelter', 'shelter_tel     → t_pa_tel', 'shelter_address → t_pa_addr']);\n    chip(g, { x: 126, y: 566, w: 470, h: 56 }, ['album_file → t_pa_photo', c.photo.split('/').pop()]);\n  }\n  // 官方認養資訊:開農業部全國動物收容管理系統的認養公告(個別動物沒有獨立網址)\n  const OFFICIAL = 'https://www.pet.gov.tw/AnimalApp/AnnounceMent.aspx?PageType=Adopt';\n  function wireOfficial() {\n    const o = document.getElementById('pa-official');\n    if (!o || o.__paOn) return;\n    o.__paOn = true;\n    const a = o.querySelector('a');\n    if (a) { a.setAttribute('href', OFFICIAL); a.setAttribute('target', '_blank'); a.setAttribute('rel', 'noopener'); }\n    o.style.cursor = 'pointer';\n    o.addEventListener('click', (ev) => { ev.preventDefault(); ev.stopPropagation(); window.open(OFFICIAL, '_blank', 'noopener'); });\n  }\n  function wire() {\n    const b = document.getElementById('pa-xr');\n    if (b && !b.__paOn) {\n      b.__paOn = true;\n      b.addEventListener('click', () => { xray = !xray; drawXray(); });\n    }\n  }\n\n  async function load() {\n    try {\n      const img = document.getElementById('pa-photo');\n      if (!img) { observed = null; return; }\n      if (!img.__paClean) { img.__paClean = true; cleanBaked(); }\n      wire();\n      wireOfficial();\n      watch();\n      const raw = await svc.$getTagForScript(null, 't_pad_json');\n      if (!raw) return;\n      const c = JSON.parse(raw);\n      card = c;\n      const key = c.id + '|' + c.push;\n      if (swapping) return;\n      if (img.__paKey !== key) { swap(c, key, img); return; }\n      fades('pa-dim', !!c.busy);\n      if (!c.busy) fades('pa-hold', false);\n      fitAll();\n    } catch (e) { }\n  }\n  load();\n  setInterval(load, 600);\n}\n"
+    }
+  ]
+}
